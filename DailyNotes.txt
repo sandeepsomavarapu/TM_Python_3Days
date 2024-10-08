@@ -1,0 +1,204 @@
+
+					POP	 						OOP
+	B,BCPL,C,COBOL,PHOTON.....				C++,JAVA,PYTHON,.NET......oopl
+	
+	OOPS
+						PEFORMANCE		Inheritance,polymorphisam
+						SECURITY		encapsulation ,abstraction    class,object
+	
+Python:
+========	
+		feb 20th 1991
+			
+			guido van russam
+			
+			
+		syntax	
+			  
+			33
+			
+java:
+====
+	Welcome.java
+	class Welcome
+	{
+	public static void main(String args[]){
+	
+	System.out.println("welcome to java")
+	
+	}
+	}
+	
+	
+	1.x
+	2.x
+	3.x
+	
+	
+	1.functional programming features from C
+	2.Object Oriented Programming  C++
+	3.scripting language features from PERL and Shellscript
+	4.Modular Programming  Modula-3		
+			
+					C,ABC
+		2014 java8 
+			
+			
+	Where we can use Python:
+============================
+
+		1)Desktop Applications		core python,tkinter
+		2)web applications			django,flask...	
+		3)db application			pdbc
+		4)network programming
+		5)gaming applications
+		6)Data Analysis
+		7)IOT
+		8)ML
+		9)AI
+		...........................
+			
+			
+	Features:
+	===========
+	1)Simple and easy to learn 
+	2)free source and open source
+				Jytnon
+	3)High level PL
+	4)Platform independent 					windows    WORA 
+
+	5) portability								linux				unix
+	6)dynamic typed				 age=123;
+
+
+				PVM
+
+			Cpython
+			jython
+			rubypython
+			ironpython
+			anacondapython...
+			
+		
+Identfiers:
+===========
+			any name in python will call it as identifier
+		
+		 empname="suresh"
+		 
+		a-z
+		A-Z
+		0-9
+		_
+		
+		
+		empId=123;
+		
+		empId1=234;
+		
+		123Id=11;  invalid
+		
+		
+>>> import keyword
+>>> keyword.kwlist
+['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 
+'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if',
+ 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+		
+Datatypes:
+==========
+
+
+			int
+			float
+			bool
+			str			''  ""
+			complex			a+bj
+			range
+			bytes		
+			
+			list
+			tuple
+			set
+			dict
+			fronzenset
+			none
+		
+		
+		type()
+		id()
+		print()
+		int()
+		float()
+		string()
+		bool()
+		complex()
+		
+			list
+			tuple
+			set
+			dict
+			fronzenset
+			
+
+List:
+
+	group of values as single entity where insertion order is preserved  
+	and duplicates are allowed 
+
+		1)insertion order is preserved 
+		2)duplicates are allowed 
+		3)homogeneous and heterogeneous objects are allowed 
+		4)growable in nature 
+		5)[]
+		6)List is muttable
+
+Tuple:
+
+	group of values as single entity where insertion order is preserved 
+	and duplicates are allowed 
+
+		1)insertion order is preserved 
+		2)duplicates are allowed 
+		3)homogeneous and heterogeneous objects are allowed 
+		4)not growable in nature 
+		5)()
+		6)tuple is imuttable
+
+SET:
+
+	group of values as single entity where insertion order is not preserved  and duplicates are not allowed 
+
+		1)insertion order is not preserved 
+		2)duplicates are not allowed 
+		3)homogeneous and heterogeneous objects are allowed 
+		4)growable in nature 
+		5){}
+		6)Set is muttable
+
+
+frozenset
+
+	group of values as single entity where insertion order is not preserved  and duplicates are not allowed 
+
+		1)insertion order is not preserved 
+		2)duplicates are not allowed 
+		3)homogeneous and heterogeneous objects are allowed 
+		4)not growable in nature 
+		5)({})-->using frozenset method
+		6)FrozenSet is imuttable
+
+
+Dict:
+=====
+
+{123:"suresh",124:"mahesh"}
+
+
+	1.duplicate keys are not allowed
+	2.values can be duplicate
+	3.key,value can be any DT
+	4.{key:value,key:value....}
+	5.dict is muttable
+	
+	
