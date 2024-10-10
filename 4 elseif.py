@@ -1,7 +1,7 @@
 # Example for Python Elif Statement
 
 # Imagine you have 6 subjects and Grand total is 600
-Totalmarks = int(input(" Please Enter Your Total Marks:  "))
+Totalmarks = int(input(" Please Enter Your Total Marks:  "))#470
 if Totalmarks >= 540:
     print(" Congratulations! ")
     print(" You are eligible for Full Scholarship ")

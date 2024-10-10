@@ -1,4 +1,4 @@
-age = int(input(" Please Enter Your Age Here:  "))
+age = int(input(" Please Enter Your Age Here:  "))#25
 if age < 18:
     print(" You are Minor ") 
     print(" You are not Eligible to Work ") 
